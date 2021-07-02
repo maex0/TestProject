@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/maximiliangobbel/.dotnet/store/|arch|/|tfm|",
+      "/Users/maximiliangobbel/.nuget/packages"
+    ]
+  }
+}
