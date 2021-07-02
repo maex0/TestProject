@@ -20,4 +20,4 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore ./ConsoleApp/ConsoleApp.csproj
     - name: Build
-      run: dotnet build ./ConsoleApp/ConsoleApp.csproj --no-restore
+      run: dotnet build ./ConsoleApp/ConsoleApp.csproj --no-restore --configuration Release
