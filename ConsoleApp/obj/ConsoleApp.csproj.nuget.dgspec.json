@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/maximiliangobbel/Projects/Studium/Semester6/DevOps/Projektarbeittests/TestProject/ConsoleApp/ConsoleApp.csproj": {}
+  },
+  "projects": {
+    "/Users/maximiliangobbel/Projects/Studium/Semester6/DevOps/Projektarbeittests/TestProject/ConsoleApp/ConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/maximiliangobbel/Projects/Studium/Semester6/DevOps/Projektarbeittests/TestProject/ConsoleApp/ConsoleApp.csproj",
+        "projectName": "ConsoleApp",
+        "projectPath": "/Users/maximiliangobbel/Projects/Studium/Semester6/DevOps/Projektarbeittests/TestProject/ConsoleApp/ConsoleApp.csproj",
+        "packagesPath": "/Users/maximiliangobbel/.nuget/packages/",
+        "outputPath": "/Users/maximiliangobbel/Projects/Studium/Semester6/DevOps/Projektarbeittests/TestProject/ConsoleApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/maximiliangobbel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
