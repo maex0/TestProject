@@ -21,5 +21,3 @@ jobs:
       run: dotnet restore ./ConsoleApp/ConsoleApp.csproj
     - name: Build
       run: dotnet build ./ConsoleApp/ConsoleApp.csproj --no-restore
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
