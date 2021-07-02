@@ -11,7 +11,7 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-      buildConfiguration: 'Release'
+      buildConfiguration: Release
     steps:
     - uses: actions/checkout@v2
     - name: Setup .NET
@@ -21,4 +21,4 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore ./ConsoleApp/ConsoleApp.csproj
     - name: Build
-      run: dotnet build ./ConsoleApp/ConsoleApp.csproj --no-restore --configuration {{ env.buildConfiguration }}
+      run: dotnet build ./ConsoleApp/ConsoleApp.csproj --no-restore --configuration ${{ env.buildConfiguration }}
