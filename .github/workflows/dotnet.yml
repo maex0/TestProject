@@ -11,7 +11,5 @@ jobs:
       buildConfiguration: Release
     steps:
     - uses: actions/checkout@v2
-    - name: Restore dependencies
-      run: dotnet restore ./ConsoleApp/ConsoleApp.csproj
     - name: Build
       run: dotnet build ./ConsoleApp/ConsoleApp.csproj --no-restore --configuration ${{ env.buildConfiguration }}
